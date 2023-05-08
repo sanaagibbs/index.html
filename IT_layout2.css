@@ -1,0 +1,111 @@
+
+html{
+    background-color: hsl(27,72% 72%);
+}
+
+body{
+    color: rgb(91, 91, 91);
+    background-color: beige;
+    font-family: googleapis;
+    font-size: 14px;
+   border-left: 1px solid rgb(41, 110, 59);
+   border-right: 1px solid rgb(36, 131, 79);
+   box-shadow: rgb(51, 51 ,51) 15px 0px 25px;
+            color: (51, 51,51)-15px 3px 25px;
+    
+}
+
+/* Heading Styles */
+h1{
+    color:white;
+    background-color:rgb(9, 158, 98);
+    font-family: limelight;
+    font-size: 2.2em;
+}
+
+h2{
+    color: whitesmoke;
+    background-color: rgb(67, 210, 136);
+    font-size: 1.5em;
+    border-bottom: 4px solid rgb(39, 138, 14);
+}
+
+/* Aside and Blockquote Styles */
+aside {
+    font-size: 0.8em;
+}
+aside blockquote {
+    color:antiquewhite;
+}
+
+
+ul.submenu {
+    display: none;
+}
+
+a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+    display: block;
+}
+
+.topnav {
+    background-color:rgb(44, 202, 136);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color:rgb(91, 40, 174);
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color:darkcyan;
+    color: rgb(44, 202, 136);
+}
+
+.topnav a.active{
+    background-color:rgb(44,202,136);
+    color: rgb(91,40,174);
+}
+
+h1 {
+    display:flex;
+    justify-content:space-between;
+    border-bottom: 5px solid green;
+  }
+
+img {
+    width: 20%;
+    height: 200px;
+}
+
+div {
+    border-bottom: double;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 3rem;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+   

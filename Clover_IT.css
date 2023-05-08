@@ -1,0 +1,136 @@
+
+/*Heading Styles */
+
+h1{
+    font-size: 50px;
+    color: rgb(116, 230, 141);
+  text-shadow: 2px 2px 4px #d5a5a5;
+  text-shadow: 1px 1px 2px rgb(206, 122, 186), 0 0 25px rgb(206, 117, 185), 0 0 5px rgb(179, 87, 140);
+  background-color: rgb(194, 156, 166);
+}
+
+h2{
+    color: rgb(22, 139, 143);
+    background-color: rgb(235,177,131);
+}
+
+h5{
+  font-size: 20px;
+  color: rgb(116, 230, 141);
+  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+h6{
+    font-size: 20px;
+    color: rgb(47, 205, 213);
+  text-shadow: 2px 2px 4px #893e3e;
+  text-shadow: 1px 1px 2px rgb(198, 38, 38), 0 0 25px rgb(252, 108, 218), 0 0 5px darkblue;
+}
+
+h7{
+    font-size: 20px;
+    color: rgb(206, 117, 185);
+    text-shadow: 3px 3px 4px rgb(185, 130, 53);
+    text-shadow: 1px 1px 2px rgb(185, 130, 53), 0 0 25px rgb(252, 108, 218), 0 0 5px rgb(19, 157, 178);
+}
+
+h8 {
+    font-size: 20px;
+    color: rgb(206, 117, 185);
+    text-shadow: 3px 3px 4px rgb(161, 118, 175);
+    text-shadow: 1px 1px 2px rgb(159, 32, 140), 0 0 25px rgb(252, 108, 218), 0 0 5px rgb(19, 157, 178);
+}
+
+
+
+
+/*HTML and Body Styles*/
+html {
+    background-color: hsl(27,72%,72%);
+   }
+   
+   body {
+       color: rgb(91,91,91);
+       background-color: rgb(236, 200, 200);
+   }
+
+
+
+/* Aside and Blockquote Styles */
+ul.submenu {
+    display: none;
+}
+
+a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+    display: block;
+}
+
+.topnav {
+    background-color:rgb(44, 202, 136);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color:rgb(91, 40, 174);
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color:darkcyan;
+    color: rgb(44, 202, 136);
+}
+
+.topnav a.active{
+    background-color:rgb(44,202,136);
+    color: rgb(91,40,174);
+}
+
+
+/*Navigation */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100;
+    padding: 25px 12.5%;
+    background: rgb(201, 187, 201);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/*Search Bar*/
+
+.search-bar {
+    width: 250px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #c08282;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 100%; 
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color:rgb(185, 130, 53);
+}
+
